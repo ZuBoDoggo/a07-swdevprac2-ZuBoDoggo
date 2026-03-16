@@ -29,7 +29,7 @@ export default async function VenueDetailPage( {params} : {params:Promise<{vid:s
     );
 }
 
-export async function GenerateStaticParams() {
+export async function generateStaticParams() {
     return [
         {vid:"001"},
         {vid:"002"},
